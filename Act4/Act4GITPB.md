@@ -24,70 +24,70 @@ ____________________________________________________________
 
 Lo primero de todo es comprobar que tenemos instalado en nuestro terminal GIT.
 
-![](Imagen%202.png)
+![](Imagen%203.png)
 
 Iniciamos GIT
 
-![](Imagen%202.png)
+![](Imagen%204.png)
  
 
 Clonamos el repositorio en nuestro terminal en el que hemos subido todas las actividades y tenemos varios commits hechos.
 
 
-![](Imagen%202.png) 
+![](Imagen%205.png) 
 
 
 Entramos en nuestro repositorio:
 
-![](Imagen%202.png)
+![](Imagen%206.png)
  
 Comprobamos el historial de nuestro repositorio.
 
  
-![](Imagen%202.png)
+![](Imagen%207.png)
 
 Ahora vamos a crear una etiqueta v3.3 que contenga la última versión de la actividad 3.
 Etiqueta v.2.3 que contenga la última versión de la actividad 2.
 Etiqueta v.1.3 que contenga la última versión de la actividad 1.
 
-![](Imagen%202.png)
+![](Imagen%208.png)
 
 Y las subimos:
 
-![](Imagen%202.png) 
+![](Imagen%209.png) 
 
 Hacemos lo mismo, pero que contenga la primera versión de todos los documentos:
 v1.1 primera versión actividad 1
 v2.1 primera versión actividad 2
 v3.1 primera versión actividad 3
 
-![](Imagen%202.png)
+![](Imagen%2010.png)
  
 Listamos nuestras etiquetas
 
-![](Imagen%202.png)
+![](Imagen%2011.png)
 
 Podemos ver las etiquetas en las diferentes versiones:
 
-![](Imagen%202.png) 
+![](Imagen%2012.png) 
 
 Ahora vamos a realizar  una rama que contenga la última versión sin ningún commit histórico.
 Lo primero que hacemos es crear la rama donde queremos llevar nuestros commits.
 
-![](Imagen%202.png) 
+![](Imagen%2013.png) 
 
 Creamos un commit para insertar contenido.
 
-![](Imagen%202.png) 
+![](Imagen%2014.png) 
 
 Miramos en que rama nos encontramos  y vemos que estamos en la rama principal (Main) donde tenemos nuestros commits.
 
-![](Imagen%202.png)
+![](Imagen%2015.png)
  
 
 Con git log obtenemos es una lista de nuestros commits, con sus respectivos códigos SHA. 
 
-![](Imagen%202.png) 
+![](Imagen%2016.png) 
 
 Vamos a copiar el código SHA del commit que queremos mover a nuestra rama.
 
@@ -99,7 +99,7 @@ Vamos a copiar el código SHA del commit que queremos mover a nuestra rama.
 
 Y regresamos a la rama lastversions que es donde queremos poner los commits.
 
-![](Imagen%202.png)
+![](Imagen%2017.png)
  
 
 
@@ -107,29 +107,29 @@ Usamos cherry-pick seguido del SHA.
 
 Act1
 
-![](Imagen%202.png) 
+![](Imagen%2018.png) 
 
 Act2
 
-![](Imagen%202.png) 
+![](Imagen%2019.png) 
 
 Act3
 
-![](Imagen%202.png) 
+![](Imagen%2020.png) 
 
 
 Agregamos los cambios:
 
-![](Imagen%202.png) 
+![](Imagen%2021.png) 
 
 
 Subimos al repositorio remoto.
 
-![](Imagen%202.png) 
+![](Imagen%2022.png) 
 
 Y comprobamos que efectivamente nos ha subido los 3 commits de las últimas versiones.
 
-![](Imagen%202.png)
+![](Imagen%2023.png)
  
 
 Ahora tenemos que meter en otra rama, las primeras versiones.
@@ -143,20 +143,20 @@ Por lo que creamos otra rama huérfana con firstversions y creamos los commit qu
 
 Repetimos los pasos anteriores:
 
-![](Imagen%202.png) 
+![](Imagen%2024.png) 
 
-![](Imagen%202.png)
+![](Imagen%2025.png)
 
-![](Imagen%202.png)
+![](Imagen%2026.png)
 
 Ahora vamos a hacer una historia de commits, nos vamos a crear un alias para no poner el comando completo.
 
-![](Imagen%202.png)
+![](Imagen%2027.png)
  
 Vamos a meter estos commits en un fichero README.MD
 
-![](Imagen%202.png) 
+![](Imagen%2028.png) 
 
 Descargamos a nuestro repositorio local.
 
-![](Imagen%202.png)
+![](Imagen%2029.png)
